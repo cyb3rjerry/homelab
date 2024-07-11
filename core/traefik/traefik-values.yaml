@@ -1,0 +1,5 @@
+additionalArguments:
+  - '--serversTransport.insecureSkipVerify=true' 
+service:
+  spec:
+    externalTrafficPolicy: Local
